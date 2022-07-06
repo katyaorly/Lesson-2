@@ -1,6 +1,13 @@
 # Вывести предложение из строк
-a = "Программирование"
-b = "это"
-c = "сложно"
-d = f"{a} - {b} {c}."
-print(d)
+
+n = int(input())
+m = []
+d = []
+for i in range(n):
+    m.append(input())
+
+d = " ".join(m)
+print(d, end=".")
+
+
+
